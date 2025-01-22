@@ -1,3 +1,9 @@
 num = int(input("enter a number:"))
-squareRoot = num ** 0.5
-print("the square root of",num,"is",squareRoot)
+test = num
+while(True):
+    check = 0.5 * (test + (num/test))
+    if abs(check - test) == 0:
+        break
+    test = check
+
+print("the square root of",num,"is",check)

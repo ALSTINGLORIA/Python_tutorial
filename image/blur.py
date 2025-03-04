@@ -1,7 +1,7 @@
 from images import Image
 from functools import reduce
 
-image = Image("C:/Users/alstingloria/Pictures/cat1.jpg")
+image = Image("C:/Users/alstingloria/Pictures/cat1.gif")
 
 def blur(image):
     def tripleSum(triple1, triple2):

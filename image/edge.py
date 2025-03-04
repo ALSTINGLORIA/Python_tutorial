@@ -23,5 +23,5 @@ def detectEdges(image, amount):
                 new.setPixel(x, y, whitePixel)
     return new
 
-x = Image("C:/Users/alstingloria/Pictures/cat1.jpg")
+x = Image("C:/Users/alstingloria/Pictures/cat1.gif")
 detectEdges(x, 10).draw()
